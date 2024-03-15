@@ -78,14 +78,44 @@ h1{
     font-weight: 500;
     line-height: 17px;
     letter-spacing: 0.01em;
-    text-align: center;
-
+    text-align: center;    
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
 }
 
+.promo .link_text{
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 32px;
+}
 
+h2{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.promo .feedback{
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 16px;
+}
 
 
 
