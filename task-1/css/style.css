@@ -117,7 +117,42 @@ h2{
     margin-top: 16px;
 }
 
+.сopyright_block{
+    display: flex;
+    justify-content: center;
+    gap: 7px ;
+}
 
 
+footer{
+    background: rgba(249, 250, 251, 1);
+    padding: 26px 0 48px 0;
+}
+
+.footer_social-links{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 245, 255, 1);
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 16px 16px 0px 0px;
+    margin-top: 20px;
+}
+
+.text_footer{
+    text-align: center;
+    margin-top: 19px;
+}
+
+.footer_link{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 7px;
+    display: block;
+}
+
+.footer_link:hover{
+    text-decoration: underline;
+}
 
 
