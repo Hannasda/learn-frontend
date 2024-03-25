@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 602px;
+    margin: 0 auto;
+}
+
+.promo{
+    height: 836px;
+    background-color: white;
+}
+
+.block_product{
+    margin-top: 32px;
+}
+
+.promo .title{
+    padding: 30px;
+    text-align: center;
+}
+
+h1{
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.promo .block_color{
+    width: 500px;
+    height: 1px;
+    gap: 0px;
+    background-color:rgba(223, 232, 245, 1);
+}
+
+.promo .product{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.12px;
+    text-align: left;
+    margin-left: 24px;
+
+}
+.promo .quantity{
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:rgba(108, 112, 119, 0.6);
+    margin-left: 24px;
+}
+
+.promo .quantity .pieces{
+    color:black;
+}
+
+.promo .block_color{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.promo .sending{
+    font-family: Helvetica Neue;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 14.96px;
+    text-transform: uppercase;
+    color: rgba(159, 164, 187, 1);
+    margin-top: 12px;
+}
+
+.promo .sending .request{
+    top: 80px;
+    margin-left: 24px;
+}
+
+.promo .posted{
+    top: 80px;
+    margin-left: 243px;
+}
+
+.promo .flag_and_text{
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.promo .text_flag{
+    vertical-align: middle;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+}
+
+.usa{
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.promo .hours{
+    margin-left: 243px;
+}
+
