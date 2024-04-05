@@ -10,12 +10,7 @@
 }
 
 .promo{
-    height: 836px;
     background-color: white;
-}
-
-.block_product{
-    margin-top: 32px;
 }
 
 .promo .title{
@@ -32,12 +27,21 @@ h1{
     text-align: center;
 }
 
-.promo .block_color{
-    width: 500px;
-    height: 1px;
-    gap: 0px;
-    background-color:rgba(223, 232, 245, 1);
+.promo .block_product{
+    width: 100%;
+    border-top: solid rgba(223, 232, 245, 1);
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
+.promo .block_product:last-child{
+    border-bottom: solid rgba(223, 232, 245, 1);
+    padding-bottom: 34px;
+}
+
 
 .promo .product{
     font-family: Arial;
@@ -46,6 +50,7 @@ h1{
     line-height: 24.12px;
     text-align: left;
     margin-left: 24px;
+    margin-top: 32px;
 
 }
 .promo .quantity{
@@ -63,48 +68,95 @@ h1{
     color:black;
 }
 
-.promo .block_color{
+.promo .block_product .who_posted{
+    margin-left: 24px;
+    display: flex;
+    gap: 124px;
     margin-top: 12px;
-    margin-bottom: 12px;
 }
 
-.promo .sending{
-    font-family: Helvetica Neue;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 14.96px;
-    text-transform: uppercase;
+.block_product .request_posted{
+    width: 95px;
+    height: 15px;
     color: rgba(159, 164, 187, 1);
-    margin-top: 12px;
-}
-
-.promo .sending .request{
-    top: 80px;
-    margin-left: 24px;
-}
-
-.promo .posted{
-    top: 80px;
-    margin-left: 243px;
-}
-
-.promo .flag_and_text{
-    margin-top: 10px;
-    margin-left: 24px;
-}
-
-.promo .text_flag{
-    vertical-align: middle;
-    font-family: Helvetica Neue;
-    font-size: 14px;
-}
-
-.usa{
     text-transform: uppercase;
-    vertical-align: middle;
+    font-family: Helvetica Neue;
 }
 
-.promo .hours{
-    margin-left: 243px;
+.block_product .country_hour{
+    font-family: Helvetica Neue;
+    margin-top: 9px;
 }
+
+.block_product .flag_and_text{
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+
+
+.block_product .button_quote{
+    width: 107px;
+    height: 32px;
+    top: 56px;
+    left: 393px;
+    border-radius: 8px 8px 8px 8px;
+    border-color: transparent;
+    background: rgba(0, 93, 255, 1);
+    font-family: Helvetica Neue;
+    color: rgba(255, 255, 255, 1);
+    margin: 56px 0 56px 0px; 
+    justify-content: center;
+}
+
+.button_more_quotations{
+    margin-top: 32px;
+    margin-left: 175px;
+    margin-bottom: 60px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 8px 8px 8px 8px;;
+    background: rgba(15, 15, 17, 1); 
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.сopyright_block{
+    display: flex;
+    justify-content: center;
+    gap: 7px ;
+}
+
+
+footer{
+    background: rgba(249, 250, 251, 1);
+    padding: 26px 0 48px 0;
+}
+
+.footer_social-links{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 245, 255, 1);
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 16px 16px 0px 0px;
+    margin-top: 20px;
+}
+
+.text_footer{
+    text-align: center;
+    margin-top: 19px;
+}
+
+.footer_link{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 7px;
+    display: block;
+}
+
+.footer_link:hover{
+    text-decoration: underline;
+}
+
+
 
