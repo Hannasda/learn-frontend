@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 602px;
+    margin: 0 auto;
+}
+
+.promo{
+    background-color: white;
+}
+
+.promo .title{
+    padding: 30px;
+    text-align: center;
+}
+
+.header{
+    background: rgba(0, 0, 0, 1);
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.letter-text_second{
+    margin-top: 8px;
+}
+
+.block_products_img{
+    margin-top: 32px;
+    width: 600px;
+    height: 316px;
+    /* background: linear-gradient(108.15deg, rgba(0, 0, 0, 0.2) 34.95%, rgba(0, 0, 0, 0) 100%), url(pexels-karolina-grabowska-5202143.jpg); */
+    background: url(../img/background.png);
+    padding: 81px 0 81px 0;
+    position: relative;
+}
+
+.all_product{
+    position: absolute;
+    top:32px;
+    bottom:32px;
+    left:247px;
+}
+.text_pictures{
+    margin-left: 30px;
+}
+
+.compilation{
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.42px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.product_sourcing{
+    margin-top: 12px;
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.93px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.block_info_product{
+    margin-bottom: 24px;
+}
+
+.block_products_button{
+    border: none;
+    margin-top: 18px;
+    width: 100px;
+    height: 28px;
+    border-radius: 4px;
+    background: rgba(0, 93, 255, 1);
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.93px;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+}
+
+.iformation{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.name_product{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.52px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.flag_country{
+    display:flex;
+    margin-top: 8px;
+    align-items: center;
+    gap: 2px;
+}
+
+.country{
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.company_name{
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 8px;
+    color: rgba(159, 164, 187, 1);
+}
+
+.stock{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.block_info_product button{
+    width: 174px;
+    height: 32px;
+    border-radius: 4px;
+    background: rgba(0, 93, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-top: 16px;
+    border-color: transparent;
+}
+    
+.support_text{
+margin-top: 40px;
+font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+letter-spacing: 0.01em;
+text-align: center;
+margin-bottom: 32px;
+}
+
+.сopyright_block{
+    display: flex;
+    justify-content: center;
+    gap: 7px ;
+}
+
+footer{
+    background: rgba(249, 250, 251, 1);
+    padding: 26px 0 48px 0;
+}
+
+.footer_social-links{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 245, 255, 1);
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 16px 16px 0px 0px;
+    margin-top: 20px;
+}
+
+.text_footer{
+    text-align: center;
+    margin-top: 19px;
+}
+
+.footer_link{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 7px;
+    display: block;
+}
+
+.footer_link:hover{
+    text-decoration: underline;
+}
